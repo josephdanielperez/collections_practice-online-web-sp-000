@@ -24,3 +24,8 @@ def kesha_maker(array)
     string[2] = "$"
   end
 end
+
+def find_a(array)
+  array.find do |string|
+    string[0] == "a" || "A"
+end
